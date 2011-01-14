@@ -15,7 +15,7 @@ public class Node {
 		left = right = null;
 	}
 
-	// encapsulamento
+	// métodos de encapsulamento - GETs e SETs
 
 	// GET key
 	public int getKey() {
