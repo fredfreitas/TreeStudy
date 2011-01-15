@@ -1,18 +1,26 @@
 http://www.spheredev.org/wiki/Git_for_the_lazy
 
 		    	9
-  				|
-		  3_____|_____12
-		  |	   	       |
-		2_|_4   	11_|_17
-				  	      |
-			           13_|_21
 
-pre-order
-root	9
-left	3, 2, 4
-right	12, 11, 17, 13, 21
+		  3_____|_____12
+
+		2_|_4   	11_|_17
+
+			           13_|_21
 
 git add *
 git commit -m 'diary update'
 git push origin master
+
+
+Preorder traversal sequence: F, B, A, D, C, E, G, I, H 
+
+							 6, 2, 1, 4, 3, 5, 7, 8, 9
+
+Inorder traversal sequence: A, B, C, D, E, F, G, H, I 
+
+							1, 2, 3, 4, 5, 6, 7, 8, 9
+
+Postorder traversal sequence: A, C, E, D, B, H, I, G, F
+
+							  1, 3, 5, 4, 2, 8, 9, 7, 6
