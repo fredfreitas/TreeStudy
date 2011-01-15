@@ -92,6 +92,8 @@ public class BSTree {
 			}
 			if(node1.getKey() != k) {
 				prev = node1;
+				// trial to make this code right
+				node1 = null;
 			}
 		} while(node1 == null); 
 //		return;
