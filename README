@@ -12,3 +12,7 @@ pre-order
 root	9
 left	3, 2, 4
 right	12, 11, 17, 13, 21
+
+git add *
+git commit -m 'diary update'
+git push origin master
