@@ -116,7 +116,7 @@ public class BSTree {
 				// prev.childLeft(node1.getLeft();
 				prev.left = node1.left;
 			} else {
-				prev.childRight(node1.getLeft());
+				//prev.childRight(node1.getLeft());
 				prev.right = node1.left;
 			}
 			// delete node1
@@ -142,8 +142,7 @@ public class BSTree {
 		return;
 }
 
-
-		// impressão em pre-order
+		// impressão em pre-order - recursivo
 		//	parametro inicial, n = root.
 		public void printPreOrder(Node n) {
 			System.out.print(n.getKey() + " ");
@@ -154,4 +153,29 @@ public class BSTree {
 				printPreOrder(n.getRight());
 			}
 		}
+
+		// impressão em in-order - recursivo
+		//	parametro inicial, n = root.
+		public void printInOrder(Node n) {
+			if(n.getLeft() != null) {
+				printInOrder(n.getLeft());
+			}
+			System.out.print(n.getKey() + " ");		
+			if(n.getRight() != null) {
+				printInOrder(n.getRight());
+			}
+		}
+
+		// impressão em post-order - recursivo
+		//	parametro inicial, n = root.
+		public void printPostOrder(Node n) {
+		
+			if(n.getLeft() != null) {
+				printPostOrder(n.getLeft());
+			}
+			if(n.getRight() != null) {
+				printPostOrder(n.getRight());
+			}
+			System.out.print(n.getKey() + " ");		
+		}		
 }
