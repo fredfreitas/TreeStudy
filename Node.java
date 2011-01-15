@@ -50,4 +50,11 @@ public class Node {
 		right = new Node(k);
 	}
 
+	public void childRight(Node n) {
+		right = n;
+	}
+
+	public void childLeft(Node n) {
+		left = n;
+	}
 }

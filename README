@@ -1,1 +1,15 @@
 http://www.spheredev.org/wiki/Git_for_the_lazy
+
+		    	9
+			|
+		  3_____|_____12
+		  |	       |
+		2_|_4	    11_|_17
+				  |
+			       13_|_21
+
+pre-order
+root	9
+left	2, 3, 4
+right	12, 17, 11, 21, 13 - wrong(?)
+right 	11, 12, 13, 17, 21
