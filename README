@@ -4,9 +4,9 @@ http://www.spheredev.org/wiki/Git_for_the_lazy
 
 		  3_____|_____12
 
-		2_|_4   	11_|_17
+		2_|_4       11_|_17
 
-			           13_|_21
+                               13_|_21
 
 git add *
 git commit -m 'diary update'
