@@ -61,15 +61,12 @@ public class main {
 
 		T.deleteMerge(4);
 
-		System.out.println("Teste de impressão Pre-Order\n");
 		T.printPreOrder(n);
 		System.out.println();
 
-		System.out.println("Teste de impressão In-Order\n");
 		T.printInOrder(n);
 		System.out.println();
 
-		System.out.println("Teste de impressão Post-Order\n");
 		T.printPostOrder(n);
 		System.out.println();
 	}
